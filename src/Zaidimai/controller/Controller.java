@@ -1,4 +1,4 @@
-package sample;
+package Zaidimai.controller;
 
 public class Controller {
 }
