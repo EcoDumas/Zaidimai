@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="286.0" prefWidth="353.0" style="-fx-background-color: #ffbb33;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.Login">
+   <children>
+      <Label layoutX="105.0" layoutY="22.0" prefHeight="65.0" prefWidth="144.0" text="Login">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="155.0" prefHeight="33.0" prefWidth="110.0" text="Password:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="106.0" text="Username:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="133.0" layoutY="155.0" prefHeight="33.0" prefWidth="204.0" />
+      <Button layoutX="133.0" layoutY="239.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="204.0" text="Don't have an account? Register" />
+      <Button layoutX="133.0" layoutY="200.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="204.0" text="Login">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <PasswordField layoutX="133.0" layoutY="104.0" prefHeight="33.0" prefWidth="204.0" />
+   </children>
+</AnchorPane>
